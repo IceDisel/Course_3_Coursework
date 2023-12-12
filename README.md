@@ -31,9 +31,19 @@ Maestro 7810 84** **** 5568 -> Счет **2869
 ### Пример выполненных тестов
 ```text
 ==================================================================== test session starts ====================================================================
-platform win32 -- Python 3.10.9, pytest-7.4.3, pluggy-1.3.0
+platform win32 -- Python 3.10.9, pytest-7.4.3, pluggy-1.3.0      
 rootdir: D:\Project\Python\SkyPro_Courseworks\Course_3_Coursework
-plugins: cov-4.1.0
+plugins: cov-4.1.0                                               
+collected 15 items
+
+tests\test_utils.py ..............                                                                                                                                         [ 93%]
+tests\test_views.py .                                                                                                                                                      [100%]
+
+---------- coverage: platform win32, python 3.10.9-final-0 -----------
+Name                           Stmts   Miss  Cover
+--------------------------------------------------
+src\__init__.py                    0      0   100%
+src\utils.py                      31      0   100%
 src\views.py                      12      0   100%
 tests\__init__.py                  0      0   100%
 tests\settings_test_views.py       2      0   100%
